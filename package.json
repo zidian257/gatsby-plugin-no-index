@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-plugin-no-index",
+  "version": "0.0.1",
+  "description": "gatsby plugin for not indexing website on search engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "seo",
+    "plugin",
+    "robots"
+  ],
+  "author": "zidian257",
+  "license": "MIT"
+}
