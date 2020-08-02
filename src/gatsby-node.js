@@ -1,5 +1,5 @@
 
-
+// todo add txt options
 function writeFile(file, data) {
   return new Promise((resolve, reject) => {
     fs.writeFile(file, data, err => {
@@ -10,4 +10,9 @@ function writeFile(file, data) {
       }
     });
   });
+}
+
+
+export const onPostBuild = () =>{
+
 }
