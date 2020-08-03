@@ -1,17 +1,29 @@
 {
   "name": "gatsby-plugin-no-index",
   "version": "0.0.1",
-  "description": "gatsby plugin for not indexing website on search engine",
+  "description": "Gatsby plugin for not indexing your website on search engine",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir . "
   },
   "keywords": [
     "gatsby",
+    "gatsby-plugin",
     "seo",
-    "plugin",
     "robots"
   ],
-  "author": "zidian257",
-  "license": "MIT"
+  "author": "zidian257 <zidian257+gatsby-plugin@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zidian257/gatsby-plugin-no-index.git"
+  },
+  "bugs": "https://github.com/zidian257/gatsby-plugin-no-index/issues",
+  "devDependencies": {
+    "@babel/cli": "7.10.3",
+    "@babel/core": "7.10.3",
+    "@babel/preset-env": "7.10.3",
+    "@babel/preset-react": "^7.10.4",
+    "prettier": "^2.0.5"
+  }
 }

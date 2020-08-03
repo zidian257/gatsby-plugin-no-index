@@ -29,28 +29,6 @@ module.exports = {
 }
 ```
 
-
-```javascript
-module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-plugin-no-index`,
-      options: {
-        txt: true, // generate robots.txt for disallow indexing
-      },
-    },
-  ],
-}
-```
-
-
-The following `robots.txt` will be used:
-
-```shell
-User-agent: * Disallow: /
-```
-
-
 # Further readings
 
 https://moz.com/learn/seo/robots-meta-directives

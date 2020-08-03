@@ -18,8 +18,8 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
  */
 // You can delete this file if you're not using it
 const onRenderBody = ({
-                        setHeadComponents
-                      }) => {
+  setHeadComponents
+}) => {
   const NoFollow = /*#__PURE__*/React.createElement("meta", {
     name: "robots",
     content: "noindex, nofollow, noimageindex"
