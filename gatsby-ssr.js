@@ -22,7 +22,8 @@ const onRenderBody = ({
 }) => {
   const NoFollow = /*#__PURE__*/React.createElement("meta", {
     name: "robots",
-    content: "noindex, nofollow, noimageindex"
+    content: "noindex, nofollow, noimageindex",
+    "data-no-index": "true"
   });
   setHeadComponents([NoFollow]);
 };
