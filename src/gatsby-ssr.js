@@ -9,7 +9,7 @@ import * as React from "react"
 
 export const onRenderBody = ({ setHeadComponents }) => {
   const NoFollow = (
-    <meta name="robots" content="noindex, nofollow, noimageindex" />
+    <meta name="robots" content="noindex, nofollow, noimageindex" data-no-index="true"/>
   )
   setHeadComponents([NoFollow])
 }
