@@ -5,11 +5,16 @@
  */
 
 // You can delete this file if you're not using it
-import * as React from "react"
+import * as React from "react";
 
 export const onRenderBody = ({ setHeadComponents }) => {
   const NoFollow = (
-    <meta name="robots" content="noindex, nofollow, noimageindex" data-no-index="true"/>
-  )
-  setHeadComponents([NoFollow])
-}
+    <meta
+      name="robots"
+      content="noindex, nofollow, noimageindex"
+      data-no-index="true"
+      key="no-index-ssr-key"
+    />
+  );
+  setHeadComponents([NoFollow]);
+};
